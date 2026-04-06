@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 0 16px;
+}
+
+.nav h1 {
+    color: white;
+    margin: 16px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero-section {
+    background-color: #1a1a2e;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: darkturquoise;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+
+.about-section {
+    background-color: orchid;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    color: #1a1a2e;
+}
+
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 40px 10px;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+
+.contact-section {
+    background-color: #d9e2ec;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #1a1a2e;
+}
+
+.contact-section label {
+    color: darkslategray;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.contact-section textarea {
+    height: 100px;
+}
+
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+}
