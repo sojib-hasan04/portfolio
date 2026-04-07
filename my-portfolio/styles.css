@@ -41,6 +41,10 @@ a {
     text-align: center;
     color: white;
 }
+.hero-section h1 {
+    font-size: 3rem;
+    
+    
 
 button {
     background-color: darkturquoise;
@@ -51,7 +55,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+button: hover {
     background-color: dodgerblue;
 }
 
