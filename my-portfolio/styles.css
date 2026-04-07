@@ -58,6 +58,10 @@ button {
 button: hover {
     background-color: dodgerblue;
 }
+    .card: hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 
 
 .about-section {
